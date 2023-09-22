@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cadrastro de Usuario</h1>
+
+    <form action="receberDados.c" method="post">
+        Name: <input type="text" name="nome" id=""><br>
+        Data: <input type="date" name="data" id=""><br>
+        color: <input type="color" name="" id="cor"><br>
+        Data e Hora <input type="datetime-local" name="dataHora" id=""><br>
+        Email <input type="email" name="email" id=""><br>
+        Senha <input type="password" name="senha" id=""><br>
+        sexo: <br>M<input type="radio" name="sexo" id=""><br>
+        F <input type="radio" name="sexo" id=""><br>
+
+        Disciplinas:
+        APE:<input type="checkbox" name="APE" id=""><br>
+        SO <input type="checkbox" name="SO" id=""><br>
+
+        Estado: 
+        <select name="estado" id="">
+            <option value="DF">DF</option>
+            <option value="RS">RS</option>
+            <option value="PE">PE</option>
+        </select><br>
+        Observações <br>
+        <textarea name="OBS" id="" cols="30" rows="10"></textarea><br>
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+</html>
